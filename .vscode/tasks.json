@@ -12,7 +12,13 @@
 				"-std=c++17",
 				"${fileDirname}/*.cpp",
 				"-o",
-				"${fileDirname}/${fileBasenameNoExtension}"
+				"${fileDirname}/${fileBasenameNoExtension}",
+				"-I/opt/pylon/include",
+				"-lbasler_camera",
+				"-lcamera_info_manager",
+			
+				 "`pkg-config --cflags --libs opencv4`",
+				//"`pkg-config --cflags --libs /bin/pylon-config`"
 			],
 			"options": {
 				"cwd": "${fileDirname}"

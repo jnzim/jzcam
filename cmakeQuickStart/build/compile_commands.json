@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/admin/dev/cmakeQuickStart/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++  -isystem /usr/local/include/opencv4 -g -o CMakeFiles/cmakeQuickStart.dir/main.cpp.o -c /home/admin/dev/cmakeQuickStart/main.cpp",
+  "file": "/home/admin/dev/cmakeQuickStart/main.cpp"
+}
+]

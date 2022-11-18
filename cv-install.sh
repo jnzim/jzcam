@@ -7,7 +7,6 @@
 ### !!!  Raspberry Pi 4 version !!!
 
 
-set -e     # exit script immediately upon any error
 
 cd ~
 
